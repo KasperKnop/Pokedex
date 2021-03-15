@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements PokemonAdapter.OnListItemClickListener {
 
     RecyclerView mPokemonList;
-    RecyclerView.Adapter mPokemonAdapter;
+    PokemonAdapter mPokemonAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
